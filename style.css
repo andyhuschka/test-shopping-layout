@@ -38,12 +38,14 @@ body {
 }
 
 .product-card {
+  position: relative;
   background-color: #fff;
   border-radius: 1.5rem;
 }
 
 img {
   max-width: 100%;
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
 .content {
@@ -76,4 +78,14 @@ p {
   justify-content: center;
   border-radius: 0.5rem;
   padding: 1rem 0;
+}
+
+.aside-free {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff75;
+  margin: 0.75rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
 }
