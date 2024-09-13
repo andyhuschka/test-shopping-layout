@@ -89,3 +89,10 @@ p {
   padding: 0.3rem;
   border-radius: 0.5rem;
 }
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1rem;
+  gap: 0.5rem;
+}
